@@ -38,9 +38,7 @@ void loop() {
   
 #ifdef USE_ALEXA
   espalexa.loop();                                          // Start server
-#else
-  wserver->serverListener();                                // Omit this if USE_ALEXA 1
-#endif
+ #endif
 
   wserver->webSocketListener();                             // Constantly check for websocket events
   ArduinoOTA.handle();                                      // Listen for OTA events

@@ -6,7 +6,7 @@ Strip_Type strip_type = EWS28_STRIP;
 
 #define SMD_STRIP   0                       // 5050 SMD RGB DC 12V. Set to 1 if you use SMD strip.
 #define WS28_STRIP  1                       // WS2811/WS2812/WS2812b RGB DC 5V 
-#define USE_ALEXA   1                       // Set to 1 if you want to use smart home  
+#define USE_ALEXA   0                       // Set to 1 if you want to use smart home  
 #define ESPALEXA_MAXDEVICES 15
 #define BUILTIN_LED 2                       // Build-in LED PIN on ESP8266
 
